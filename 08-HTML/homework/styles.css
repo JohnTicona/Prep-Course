@@ -1,0 +1,50 @@
+body {
+  background-image: url('./fondo.jpg');
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  /* width: 400px; */
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+.divClass {
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#thirdDiv {
+  height: 400px;
+  width: 500px;
+  background-color: mistyrose;
+  padding: 50px;
+  border: 5px solid rosybrown;
+}
+
+#thirdDiv .imageContainer {
+  display: flex;
+  justify-content: center;
+}
